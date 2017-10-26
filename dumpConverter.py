@@ -39,7 +39,7 @@ def convertDump( DUMP ):
 
     idNumber = 1 # Class ID representive integer
     
-    for element in DUMP: # for ever 'element' in the list we format it so we can c+p in vs/ whatever
+    for element in DUMP: # for every 'element' in the list we format it so we can c+p in vs/ whatever
         
         convDump.append( str( element.split('(')[ 0 ] + " = " + str( idNumber ) ) + "," )
 
